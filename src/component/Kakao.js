@@ -7,7 +7,7 @@ function Kakao() {
     useEffect(() => {
         const container = document.getElementById('map');
         const options = {
-            center: new kakao.maps.LatLng(35.8410039, 128.6346888),
+            center: new kakao.maps.LatLng(37.841039, 130.634888),
             level: 3
         };
         const map = new kakao.maps.Map(container, options);
